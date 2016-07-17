@@ -9,7 +9,8 @@ module.exports = {
   },
 
   output: {
-    filename: path.join(__dirname, '/dist.js')
+    path: path.join(__dirname, '/dist.js'),
+    filename: "bundle.js"
   },
 
   module: {
